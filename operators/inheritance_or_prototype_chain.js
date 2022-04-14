@@ -1,10 +1,10 @@
-class Car {};
+class Truck {};
 
-class Fiesta extends Car {};
+class Buzz extends Truck {};
 
-const myCar = new Fiesta();
-console.log(myCar instanceof Fiesta);   // returns true
-console.log(myCar instanceof Car);      // returns true
+const myTruck = new Buzz();
+console.log(myTruck instanceof Buzz);
+console.log(myTruck instanceof Truck); 
 
 class Bike {
   constructor() {
